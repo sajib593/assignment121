@@ -119,3 +119,99 @@ body {
   border-radius: 20px;
   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* get and touch section---------------  */
+
+
+/* Contact Section */
+.contact-section {
+  background-color: #f5f7fe;
+  padding: 60px 20px;
+}
+
+.contact-container {
+  
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  
+}
+
+
+.contact-title {
+  flex: 1;
+  
+}
+
+.contact-title h2 {
+  font-size: 70px;
+  font-weight: bold;
+  color: #111827;
+  
+}
+
+/* Right Side Form */
+.contact-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  font-size: 20px;
+  /* font: bold; */
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 16px;
+  
+}
+
+
+
+
+.contact-form button {
+  background-color: #4f46e5;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  
+}
+
+.contact-form button:hover {
+  color: #000000;
+  background-color: #00ffff;
+}
