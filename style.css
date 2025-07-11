@@ -52,6 +52,7 @@ body {
 .signup-button:hover {
   color: #000000;
   background-color: #2be1e1;
+  cursor: pointer;
 }
 
 
@@ -81,6 +82,7 @@ body {
 .stay-focused-button:hover {
   color: #000000;
   background-color: #b751eb;
+  cursor: pointer;
 }
 
 
@@ -90,6 +92,7 @@ body {
             background-color: lightblue;
             padding: 60px 20px;
             text-align: center;
+            border-radius: 20px;
         }
         
         .section-title {
@@ -156,7 +159,7 @@ body {
   color: #6b7280;
   margin-bottom: 20px;
   font-size: 20px;
-  line-height: 1.5;
+  
 }
 
 /* Button */
@@ -174,6 +177,7 @@ body {
 .action-button:hover {
   color: #000000;
   background-color: #00ffff;
+  cursor: pointer;
 }
 
 
@@ -195,6 +199,7 @@ body {
   margin: auto;
   background-color: aliceblue;
   padding: 20px;
+  border-radius: 20px;
 }
 
 .feedback-section h2 {
@@ -215,6 +220,7 @@ body {
   padding: 20px;
   width: 300px;
   text-align: left;
+  border-radius: 20px;
 }
 
 .stars img {
@@ -298,6 +304,7 @@ body {
 
 .focus-button:hover {
   background-color: #23222d;
+  cursor: pointer;
 }
 
 .image-box img {
@@ -399,6 +406,7 @@ body {
 .contact-form button:hover {
   color: #000000;
   background-color: #00ffff;
+  cursor: pointer;
 }
 
 
@@ -447,4 +455,5 @@ body {
 
 .footer-nav a:hover {
   color: #4a3aff;
+  cursor: pointer;
 }
