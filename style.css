@@ -330,3 +330,51 @@ body {
   color: #000000;
   background-color: #00ffff;
 }
+
+
+
+
+
+
+/* footer section ------------------ */
+
+
+
+.footer {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.logo {
+  font-size: 68px;
+  font-weight: bold;
+  color: #4a3aff;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #888;
+  font-size: 20px;
+  
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #777;
+  font-size: 18px;
+  
+}
+
+.footer-nav a:hover {
+  color: #4a3aff;
+}
