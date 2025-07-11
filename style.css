@@ -14,7 +14,7 @@ body {
 
 /* Navbar Section */
 .navbar-section {
-  background-image: url('./Assets/Hero-bg.png'); /* your uploaded background */
+  background-image: url('./Assets/Hero-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -33,7 +33,7 @@ body {
 .navbar-logo {
   width: 80px;
   height: auto;
-  margin-left: 10px;
+  margin-left: 100px;
 }
 
 /* Sign Up Button */
@@ -45,7 +45,7 @@ body {
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
-  margin-right: 10px;
+  margin-right: 100px;
 
 }
 
@@ -193,6 +193,8 @@ body {
 .feedback-section {
   text-align: center;
   margin: auto;
+  background-color: aliceblue;
+  padding: 20px;
 }
 
 .feedback-section h2 {
@@ -267,6 +269,7 @@ body {
 .focus-section {
   text-align: center;
   padding: 60px 20px;
+  background-color: rgb(243, 246, 241);
 }
 
 .focus-section h1 {
