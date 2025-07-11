@@ -33,6 +33,7 @@ body {
 .navbar-logo {
   width: 80px;
   height: auto;
+  margin-left: 10px;
 }
 
 /* Sign Up Button */
@@ -44,13 +45,25 @@ body {
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
+  margin-right: 10px;
 
+}
+
+.signup-button:hover {
+  color: #000000;
+  background-color: #2be1e1;
 }
 
 
 .cool{
     text-align: center;
     
+}
+
+.stay-focused-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .stay-focused-button {
@@ -61,10 +74,13 @@ body {
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ 
 
+}
+
+.stay-focused-button:hover {
+  color: #000000;
+  background-color: #b751eb;
 }
 
 
@@ -155,6 +171,11 @@ body {
   
 }
 
+.action-button:hover {
+  color: #000000;
+  background-color: #00ffff;
+}
+
 
 /* Image Column */
 .action-image img {
@@ -235,6 +256,52 @@ body {
   margin: 0;
 }
 
+
+
+
+
+
+/* Ready to focus better section ----------------  */
+
+
+.focus-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.focus-section h1 {
+  font-size: 46px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #888;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.focus-button {
+  background-color: #4a3aff;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 40px;
+  
+}
+
+.focus-button:hover {
+  background-color: #23222d;
+}
+
+.image-box img {
+  max-width: 90%;
+  border-radius: 20px;
+  
+}
 
 
 
